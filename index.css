@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: DM Sans;
+}
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    padding-top: 1rem;
+}
+
+.brand{
+    margin-left: 3.5rem;
+}
+
+.nav-items{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 17rem;
+}
+
+.nav-item{
+    margin: 0 40px 0 40px;
+}
+
+.home-content{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 12rem;
+}
+
+.content-heading{
+    font-size: 3rem;
+    font-weight: 550;
+}
+
+.content-tagline{
+    font-size: 2rem;
+    font-weight: 550;
+    margin-top: 1rem;
+}
+
+.content-btn{
+    margin-top: 2rem;
+    height: 4rem;
+    width: 18rem;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 550;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.service{
+position: relative;
+height:fit-content;
+width: 25vw;
+}
+
+.service img{
+    width: 25vw;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.services2{
+    margin-top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.services2-header{
+    text-align: center;
+}
+
+.services2-title{
+    color: black;
+    font-size:2.1rem;
+    margin-bottom: 2vh;
+}
+
+.services2-title span{
+    font-weight: 800;
+    border-bottom: 2px solid red;
+}
+
+.services2-tagline{
+    margin: 2vh 2vw;
+}
+
+.services2-content{
+    width: 70vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 15vw;
+    justify-content: center;
+}
+
+.service2{
+    width: 30vw;
+    height: 40vh;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+}
+
+.service2-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logos{
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+.logos img{
+   height: 10%;
+   width: 10%;
+   margin-left: 10%;
+   padding-bottom: 10%;
+}
+
+.overview{
+    min-height: max-content;
+    width: 100vw;
+    background-color: rgb(0, 89, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-content{
+    margin: 20px;
+    height: max-content;
+    width: 70vw;
+    background-color: white;
+    padding: 20px;
+}
+
+.overview-head{
+height: 10vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.overview-title{
+    background-color: rgb(109, 30, 255);
+    padding: 5px 10px;
+    color: white;
+}
+
+.overview-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 0 10px;
+}
+.overview-heading span{
+    color: rgb(0, 0, 104);
+    font-weight: 800;
+}
+
+.overview-text{
+    width: 67vw;
+    padding: 15px;
+    margin-top: 15px;
+    line-height: 1.8;
+}
